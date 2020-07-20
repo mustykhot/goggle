@@ -18,19 +18,26 @@
     display: flex;
     
 }
-.header_text p{
+.header_text a{
+    text-decoration: none;
+    color: black;
     margin-right: 10px;
     font-size: 13px;
     font-family: Arial, Helvetica, sans-serif;
+}
+.header_text a:hover{
+    text-decoration: underline;
 }
 .header_assets{
     display: flex;
 }
 .header_assets .img1{
     margin-right: 10px;
+    cursor: pointer;
 }
 
 .header_assets .img2{
+    cursor: pointer;
     height: 30px;
     width: 30px;
     margin-top: -5px;
